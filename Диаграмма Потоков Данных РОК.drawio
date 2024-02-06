@@ -1,0 +1,460 @@
+<mxfile host="app.diagrams.net" modified="2024-02-06T08:50:48.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="vB7JErLfp8B7dFz09CDm" version="23.1.1" type="device">
+  <diagram name="Страница — 1" id="f1cxdbeGF5rCd28ZfoAw">
+    <mxGraphModel dx="2849" dy="1603" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-1" value="Система АРМ отдела кадров" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="202" width="133" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-3" value="Подсистема управление процессом найма и увольнения" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="152" y="-345" width="133" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-4" value="Подсистема управление персональными данными" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-112" y="401" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-5" value="Подсистема аналитика и отчетность " style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="-44" width="133" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-6" value="Подсистема управление штатными расписанием" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="308" width="133" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-20" value="Директор, Руководители отделов" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="701" y="158" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-20" target="fcb-m7ain0WEPmvbtP3V-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="431" y="300" as="sourcePoint" />
+            <mxPoint x="481" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="764" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-26" value="Приказы, запросы" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-21">
+          <mxGeometry x="0.3395" y="-5" relative="1" as="geometry">
+            <mxPoint x="23" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-29" value="Бухгалтерия" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="661" y="544" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-6" target="fcb-m7ain0WEPmvbtP3V-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="352.9988235294117" y="460.9973020450861" as="sourcePoint" />
+            <mxPoint x="616.94" y="580.248823529412" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="385" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-31" value="Отчеты о з\п, штатное расписание" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-30">
+          <mxGeometry x="0.2607" relative="1" as="geometry">
+            <mxPoint x="7" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-29" target="fcb-m7ain0WEPmvbtP3V-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="728" y="430" as="sourcePoint" />
+            <mxPoint x="778" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="724" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-33" value="Нормативы, ставки,&lt;br&gt;численность персонала" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-32">
+          <mxGeometry x="0.1008" y="2" relative="1" as="geometry">
+            <mxPoint x="-56" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-34" value="Работник" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-252" y="534" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-1" target="fcb-m7ain0WEPmvbtP3V-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4" y="684" as="sourcePoint" />
+            <mxPoint x="46" y="634" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="216" y="562" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-37" value="&lt;div&gt;Сведения о повышении&lt;/div&gt;&lt;div&gt;квалификации, информация&lt;br&gt;о штатном расписании,&lt;br&gt;информация о поощрениях, &lt;br&gt;информация о командировках и&lt;br&gt;отпусках&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-35">
+          <mxGeometry x="0.6453" y="6" relative="1" as="geometry">
+            <mxPoint x="79" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-36" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;exitX=0.25;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-34" target="fcb-m7ain0WEPmvbtP3V-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-119" y="388" as="sourcePoint" />
+            <mxPoint x="-69" y="338" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-195" y="534" />
+              <mxPoint x="-195" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-38" value="&amp;nbsp;Заявка на отпуск,&lt;br&gt;заявка на больничный,&lt;br&gt;заявка на обучение" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-36">
+          <mxGeometry x="0.1705" y="-4" relative="1" as="geometry">
+            <mxPoint x="71" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-39" value="" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;width=30.869565217391305;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-264" y="162" as="sourcePoint" />
+            <mxPoint x="-65" y="162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-40" value="База данных сотрудников" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-39">
+          <mxGeometry x="-0.21" y="-10" relative="1" as="geometry">
+            <mxPoint x="23" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-41" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5" y="240" as="sourcePoint" />
+            <mxPoint x="-180" y="181" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-42" value="Запрос данных, обновление" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-41">
+          <mxGeometry x="0.1064" y="2" relative="1" as="geometry">
+            <mxPoint x="66" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.081;entryY=0.235;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fcb-m7ain0WEPmvbtP3V-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-149" y="180" as="sourcePoint" />
+            <mxPoint x="163.4068531892235" y="238.00000000000023" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-62" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-44" value="Получение данных по запросу" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-43">
+          <mxGeometry x="-0.037" y="1" relative="1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="fcb-m7ain0WEPmvbtP3V-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-158" y="149" as="sourcePoint" />
+            <mxPoint x="-87" y="-4" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-158" y="23" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-47" value="" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;width=30.869565217391305;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="116" y="-116" as="sourcePoint" />
+            <mxPoint x="315" y="-116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-50" value="Данные о наймах и увольнениях" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="88" y="-131" width="261" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-51" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="218" y="-99" as="sourcePoint" />
+            <mxPoint x="220.19635019864472" y="202.00069350319131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-52" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="112" y="21" as="sourcePoint" />
+            <mxPoint x="218" y="-138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-53" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-34" target="fcb-m7ain0WEPmvbtP3V-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-159" y="523" as="sourcePoint" />
+            <mxPoint x="-109" y="473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-56" value="Пользовательский интерфейс АРМ" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-82" y="-177" width="133" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-57" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-1" target="fcb-m7ain0WEPmvbtP3V-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="125" as="sourcePoint" />
+            <mxPoint x="120" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-58" value="&lt;div&gt;Выбор&lt;/div&gt;&lt;div&gt;типа&lt;/div&gt;&lt;div&gt;отчета&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-57">
+          <mxGeometry x="0.3224" y="2" relative="1" as="geometry">
+            <mxPoint x="13" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-59" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-56" target="fcb-m7ain0WEPmvbtP3V-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-271" y="-142" as="sourcePoint" />
+            <mxPoint x="-352" y="-118" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-187" y="-110" />
+              <mxPoint x="-187" y="-3" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-60" value="Тип&lt;br&gt;отчета" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-59">
+          <mxGeometry x="-0.039" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-64" value="Построение отчета" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-414.5" y="-243" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-65" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-5" target="fcb-m7ain0WEPmvbtP3V-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-427" y="189" as="sourcePoint" />
+            <mxPoint x="-377" y="139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-66" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;entryX=0.452;entryY=-0.129;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-64" target="fcb-m7ain0WEPmvbtP3V-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-325" y="-288" as="sourcePoint" />
+            <mxPoint x="-275" y="-338" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-348" y="-314" />
+              <mxPoint x="-38" y="-314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-67" value="" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;width=30.869565217391305;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-104" y="-247" as="sourcePoint" />
+            <mxPoint x="28" y="-247" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-68" value="Отчет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-66" y="-262" width="62" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-72" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="fcb-m7ain0WEPmvbtP3V-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-15" y="-231" as="sourcePoint" />
+            <mxPoint x="-265" y="-342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-73" value="Построение отчета" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="354" y="85" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-76" value="" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;width=30.869565217391305;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="545" y="140.5" as="sourcePoint" />
+            <mxPoint x="677" y="140.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-77" value="Отчет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="583" y="125.5" width="62" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-78" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-1" target="fcb-m7ain0WEPmvbtP3V-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302" y="235" as="sourcePoint" />
+            <mxPoint x="352" y="185" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="286" y="154" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-79" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="513" y="285.5" as="sourcePoint" />
+            <mxPoint x="551" y="141.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-80" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="fcb-m7ain0WEPmvbtP3V-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="667" y="139" as="sourcePoint" />
+            <mxPoint x="782" y="33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-81" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-56" target="fcb-m7ain0WEPmvbtP3V-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="72" y="-164" as="sourcePoint" />
+            <mxPoint x="122" y="-214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-82" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-1" target="fcb-m7ain0WEPmvbtP3V-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="252" y="543" as="sourcePoint" />
+            <mxPoint x="302" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-83" value="Оформление документации о приеме и увольнении" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="392" y="-274" width="133" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-84" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-3" target="fcb-m7ain0WEPmvbtP3V-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659" y="-255" as="sourcePoint" />
+            <mxPoint x="709" y="-305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-85" value="" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;width=30.869565217391305;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="402.5" y="-85" as="sourcePoint" />
+            <mxPoint x="514.5" y="-85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-86" value="Документ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="411.5" y="-100" width="89" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-87" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-83" target="fcb-m7ain0WEPmvbtP3V-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="465" y="28" as="sourcePoint" />
+            <mxPoint x="458" y="-105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-89" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-86" target="fcb-m7ain0WEPmvbtP3V-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="322" y="47" as="sourcePoint" />
+            <mxPoint x="372" y="-3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-90" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-50" target="fcb-m7ain0WEPmvbtP3V-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="-146" as="sourcePoint" />
+            <mxPoint x="300" y="-196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-91" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-20" target="fcb-m7ain0WEPmvbtP3V-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="887" y="252" as="sourcePoint" />
+            <mxPoint x="937" y="202" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="844" y="188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-92" value="" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;width=30.869565217391305;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="797" y="338" as="sourcePoint" />
+            <mxPoint x="909" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-93" value="График работы" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="785" y="323" width="131" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-94" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="591" y="347" as="sourcePoint" />
+            <mxPoint x="448" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-95" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=elbowEdgeStyle;exitX=-0.001;exitY=0.562;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-6" target="fcb-m7ain0WEPmvbtP3V-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249" y="502" as="sourcePoint" />
+            <mxPoint x="299" y="452" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="228" y="378" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-96" value="Обновление&lt;br&gt;&lt;div&gt;штатного&lt;/div&gt;&lt;div&gt;расписания&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-95">
+          <mxGeometry x="-0.1473" y="2" relative="1" as="geometry">
+            <mxPoint x="14" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-97" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-6" target="fcb-m7ain0WEPmvbtP3V-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301" y="718" as="sourcePoint" />
+            <mxPoint x="-355" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="367" y="650" />
+              <mxPoint x="-358" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-98" value="" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;width=30.869565217391305;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-410" y="307" as="sourcePoint" />
+            <mxPoint x="-298" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-99" value="Штатное расписание" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-443" y="292" width="174" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-100" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-99" target="fcb-m7ain0WEPmvbtP3V-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-544" y="249" as="sourcePoint" />
+            <mxPoint x="-494" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-101" value="" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;width=30.869565217391305;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="51" y="416" as="sourcePoint" />
+            <mxPoint x="163" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-102" value="Персональные данные" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="401" width="190" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-103" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;entryX=0.518;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-4" target="fcb-m7ain0WEPmvbtP3V-102">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4" y="465" as="sourcePoint" />
+            <mxPoint x="92" y="471" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="108" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-104" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-102" target="fcb-m7ain0WEPmvbtP3V-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="82" y="397" as="sourcePoint" />
+            <mxPoint x="132" y="347" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="105" y="368" />
+              <mxPoint x="202" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-105" value="История поощрений" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-41" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-106" value="" style="shape=link;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;width=30.869565217391305;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="772" y="14.289999999999992" as="sourcePoint" />
+            <mxPoint x="971" y="14.289999999999992" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-107" value="База данных сотрудников" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-106">
+          <mxGeometry x="-0.21" y="-10" relative="1" as="geometry">
+            <mxPoint x="23" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-108" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="fcb-m7ain0WEPmvbtP3V-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="773" y="16" as="sourcePoint" />
+            <mxPoint x="797" y="-185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-109" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=elbowEdgeStyle;entryX=0.009;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-1" target="fcb-m7ain0WEPmvbtP3V-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="97" as="sourcePoint" />
+            <mxPoint x="355" y="47" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-110" value="Запись, обновление данных&lt;br&gt;о поощрениях" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-109">
+          <mxGeometry x="0.4277" y="-3" relative="1" as="geometry">
+            <mxPoint x="-10" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-111" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fcb-m7ain0WEPmvbtP3V-105" target="fcb-m7ain0WEPmvbtP3V-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="605" y="-94" as="sourcePoint" />
+            <mxPoint x="655" y="-144" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="252" y="-13" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fcb-m7ain0WEPmvbtP3V-112" value="История поощрений" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="fcb-m7ain0WEPmvbtP3V-111">
+          <mxGeometry x="-0.4174" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
